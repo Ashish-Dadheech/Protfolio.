@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ashish Dadheech - Portfolio</title>
+
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        background-color: #0d0d0d;
+        color: white;
+        text-align: center;
+        scroll-behavior: smooth;
+      }
+      header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px;
+        background: black;
+        position: fixed;
+        width: 100%;
+        top: 0;
+        z-index: 1000;
+      }
+      .logo {
+        font-size: 20px;
+        font-weight: bold;
+      }
+      nav ul {
+        list-style: none;
+        padding: 0;
+      }
+      nav ul li {
+        display: inline;
+        margin: 0 15px;
+      }
+      nav ul li a {
+        color: white;
+        text-decoration: none;
+        cursor: pointer;
+      }
+      .hire-me {
+        background: none;
+        border: 2px solid white;
+        padding: 10px 20px;
+        color: white;
+        cursor: pointer;
+      }
+      section {
+        padding: 100px 20px;
+        min-height: 100vh;
+      }
+      #home {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+        flex-direction: column;
+      }
+      .highlight {
+        color: red;
+      }
+      .download-cv {
+        background: none;
+        border: 2px solid white;
+        padding: 10px 20px;
+        color: white;
+        cursor: pointer;
+      }
+      .avatar img {
+        width: 200px;
+        height: auto;
+        margin-top: 20px;
+      }
+      #about,
+      #services,
+      #projects,
+      #contact {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        padding: 50px;
+        background-color: #121212;
+      }
+      .about-content,
+      .services-content,
+      .projects-content,
+      .contact-content {
+        max-width: 600px;
+        text-align: center;
+      }
+      .contact-form {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        width: 100%;
+        max-width: 400px;
+      }
+      .DownloadCV {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .contact-form input,
+      .contact-form textarea {
+        padding: 10px;
+        border: 1px solid white;
+        background: transparent;
+        color: white;
+        width: 100%;
+      }
+      .contact-form button {
+        background: white;
+        color: black;
+        padding: 10px;
+        cursor: pointer;
+        border: none;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        WEB DEVELOPER <br />
+        Ashish Dadheech
+      </div>
+      <nav>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+      <button class="hire-me" onclick="location.href='#contact'">
+        HIRE ME
+      </button>
+    </header>
+
+    <section id="home">
+      <div class="intro">
+        <h3>WELCOME !</h3>
+        <h1>
+          I'm Ashish Dadheech <br />
+          <span class="highlight">Web Developer</span> <br /
+        </h1>
+        <img src="Ashish image1.png" alt="AshishDadheech" />
+
+        <a
+          href="https://drive.google.com/file/d/1ru9mcGZ3Z0Xv2BRfobVtglOPSMi212N7/view?usp=sharing"
+          download
+        >
+          <div class="DownloadCV">
+            <button class="download-cv">DOWNLOAD CV</button>
+          </div>
+        </a>
+      </div>
+    </section>
+
+    <section id="about">
+      <div class="avatar">
+        <img src="Ashish image1.png" width="400" alt="Ashish Dadheech" />
+      </div>
+      <div class="about-content">
+        <h2>About Me</h2>
+        <p>
+          I am passionate about creating innovative and user-friendly websites.
+          With a strong background in web development, I specialize in designing
+          and building custom websites that cater to the unique needs of my
+          clients.
+        </p>
+      </div>
+    </section>
+
+    <section id="services">
+      <div class="services-content">
+        <h2>My Awesome Services</h2>
+        <p>
+          From understanding your requirements, designing a blueprint, and
+          delivering the final product, I do everything that falls in between
+          these lines.
+        </p>
+        <div class="service-list">
+          <p>
+            <strong>Website Design:</strong> Creating visually appealing and
+            intuitive designs.
+          </p>
+          <p>
+            <strong>Front-End Development:</strong> Transforming design concepts
+            into interactive websites.
+          </p>
+          <p>
+            <strong>Website Optimization:</strong> Enhancing website speed and
+            SEO.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects">
+      <div class="projects-content">
+        <h2>My Projects</h2>
+        <div class="project">
+          <h3>Project 1: chai-iayah</h3>
+          <p>
+            Project Description: ## Welcome to Chai-iayah A celebration of chai
+            culture, inspired by the warm and inviting call of local chaiwalas
+            that resonates in every corner of India. This platform is dedicated
+            to the love of chai, coffee, and delightful snacks that bring people
+            together. Explore a world where every sip tells a story steeped in
+            tradition, healing, and comfort. From the rich aroma of freshly
+            brewed chai to a variety of accompaniments like biscuits, snacks,
+            and more, we aim to create an experience that feels like home. Find
+            your love for food and discover the essence of India’s chai
+            heritage, brewed to perfection just for you.
+          </p>
+          <a href="https://github.com/Ashish-Dadheech/ProjectChai">github</a>
+        </div>
+        <!-- <div class="project">
+            <h3>Project 2</h3>
+            <p>Project Description</p>
+        </div>
+        <div class="project">
+            <h3>Project 3</h3>
+            <p>Project Description</p>
+        </div> -->
+      </div>
+    </section>
+
+    <section id="contact">
+      <div class="contact-content">
+        <h2>Hire Me.</h2>
+        <p>Call us directly: +91 8279233958</p>
+        <p>Contact Email: ashishdadheech489@gmial.com</p>
+        <form class="contact-form">
+          <input type="text" placeholder="Your Name..." />
+          <input type="text" placeholder="Your Phone..." />
+          <input type="email" placeholder="Your Email..." />
+          <textarea placeholder="Write a Message..."></textarea>
+          <button type="submit">SUBMIT</button>
+        </form>
+      </div>
+    </section>
+
+    <script>
+      document.querySelectorAll("nav ul li a").forEach((anchor) => {
+        anchor.addEventListener("click", function (e) {
+          e.preventDefault();
+          const targetId = this.getAttribute("href").substring(1);
+          document
+            .getElementById(targetId)
+            .scrollIntoView({ behavior: "smooth" });
+        });
+      });
+    </script>
+  </body>
+</html>
